@@ -13,7 +13,8 @@ Additionally, we identify a problem with the popular Average Precision (AP) metr
 fine-grained label datasets and propose a new metric called Non-Maximum Suppression Average Precision (NMS-AP) to address this issue.
 
 ***
-<h3 align="center"> Datasets and code will be released soon !!! </h3>
+<h3 align="center"> Benchmark </h3>
+
 
 ***
 <img src="docs/example.png" alt="OVDEval" width="100%">
