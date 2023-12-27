@@ -80,7 +80,14 @@ git clone https://github.com/om-ai-lab/OVDEval.git
 ```
 
 ## 3. Result preparation
-Please format the output of the model in accordance with the pycocotools results format.
+
+Explanation: The annotation format of the OVDEval dataset is different from the COCO format. Specifically, each image annotation has different labels, and the "images" section contains "text" and "neg_text". Therefore, inference needs to be done on each image individually.
+
+The specific steps are as follows:
+
+1. Take "text" and "neg_text" as the labels for each image and input them into the model.
+2. Use your model to infer the results for each image and save them in the following format. The "category_id" should correspond to the "id" of the category in the annotation file's "annotations" section.
+3. Use the processed JSON file and our provided eval.py script to calculate the NMS-AP score.
 
 ```
 [
@@ -126,7 +133,7 @@ Parameter Description:
 
 ## Example
 
-Taking the GLIP model as an example,
+Below, we provide the testing code for the GLIP model on the "material" test set.
 
 ```
 python eval_glip.py \
@@ -137,7 +144,7 @@ python eval_glip.py \
     --output-path output 
 ```
 
-Evaluation output:
+Example output:
 ```
 ==============Now testing material.
 ==============Before NMS: 87349
