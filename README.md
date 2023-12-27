@@ -41,6 +41,7 @@ See Our [hugging face page](https://huggingface.co/datasets/omlab/OVDEval) for d
 OVDEval should be evaluated using **NMS-AP** to avoid the inflated AP problem.
 Please follow the [evaluation instructions](https://github.com/om-ai-lab/OVDEval/blob/main/Evaluation.md).
 
+The "output" folder provides the final output JSON files obtained by applying NMS to the inference results of the GLIP model on the material test dataset.
 
 
 ***
