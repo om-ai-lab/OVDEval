@@ -38,7 +38,7 @@ See Our [hugging face page](https://huggingface.co/datasets/omlab/OVDEval) for d
 
 ***
 ## Evaluate With NMS-AP
-OVDEval should be evaluated using NMS-AP to avoid the inflated AP problem.
+OVDEval should be evaluated using **NMS-AP** to avoid the inflated AP problem.
 Please follow the [evaluation instructions](https://github.com/om-ai-lab/OVDEval/blob/main/Evaluation.md).
 
 
