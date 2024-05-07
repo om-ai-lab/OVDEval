@@ -1,7 +1,7 @@
 # OVDEval
 <h3 align="center"> A Comprehensive Evaluation Benchmark for Open-Vocabulary Detection</h3>
 <p align="center">
- <a href="https://arxiv.org/abs/2308.13177"><strong> [Paper 📄] </strong></a> <a href=https://huggingface.co/datasets/omlab/OVDEval"><strong> [Dataset 🗂️] </strong></a>
+ <a href="https://arxiv.org/abs/2308.13177"><strong> [Paper 📄] </strong></a> <a href=https://huggingface.co/datasets/omlab/OVDEval><strong> [Dataset 🗂️] </strong></a>
 </p>
 
 
