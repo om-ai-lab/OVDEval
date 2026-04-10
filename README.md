@@ -12,7 +12,7 @@ meticulously created to provide hard negatives that challenge models' true under
 Additionally, we identify a problem with the popular Average Precision (AP) metric when benchmarking models on these 
 fine-grained label datasets and propose a new metric called Non-Maximum Suppression Average Precision (NMS-AP) to address this issue.
 
-Check out Our AAAI24 paper <a href="https://arxiv.org/abs/2308.13177">[How to Evaluate the Generalization of Detection? A Benchmark for
+Check out Our AAAI24 paper <a href="https://dl.acm.org/doi/abs/10.1609/aaai.v38i7.28485">[How to Evaluate the Generalization of Detection? A Benchmark for
 Comprehensive Open-Vocabulary Detection]</a> for more details about the Inflated AP Problem and NMS-AP.
 
 <img src="docs/knowledge_00.jpg" alt="knowledge" width="100%" height="250">
@@ -48,10 +48,13 @@ The "output" folder provides the final output JSON files obtained by applying NM
 ## Citations
 Please consider citing our papers if you use the dataset:
 ```
-@article{yao2023evaluate,
-  title={How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection},
+@inproceedings{yao2024evaluate,
+  title={How to evaluate the generalization of detection? a benchmark for comprehensive open-vocabulary detection},
   author={Yao, Yiyang and Liu, Peng and Zhao, Tiancheng and Zhang, Qianqian and Liao, Jiajia and Fang, Chunxin and Lee, Kyusong and Wang, Qing},
-  journal={arXiv preprint arXiv:2308.13177},
-  year={2023}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={7},
+  pages={6630--6638},
+  year={2024}
 }
 ```
